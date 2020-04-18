@@ -80,7 +80,11 @@ h3 {
   margin: 0;
   background: #adceed;
 }
-
+.slick-slide > div > div {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
 .inner-slide-item {
   background-repeat: no-repeat;
   background-size: cover;
