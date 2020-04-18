@@ -16,70 +16,8 @@ body {
   -ms-flex: 1;
   flex: 1;
 }
-.image-slider div {
-  background-position: center;
-}
 
-.slide-container {
-  width: 100%;
-  margin: auto;
-}
-
-h3 {
-  text-align: center;
-}
-
-.each-slide > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-size: cover;
-  height: 500px;
-  width: 100%;
-}
-
-.each-slide span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
-}
-
-.each-fade {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.each-fade .image-container {
-  width: 75%;
-  overflow: hidden;
-}
-
-.each-fade .image-container img {
-  width: 100%;
-}
-
-.each-fade h2 {
-  width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 0;
-  background: #adceed;
-}
+/* =============================SLIDER======================= */
 .slick-slide > div > div {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -161,4 +99,38 @@ h3 {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
+}
+
+/*=============================== OUR TEAM ======================================= */
+.heading {
+  text-transform: uppercase;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.heading::after {
+  content: "";
+  background: #7373b3;
+  height: 3px;
+  width: 100px;
+  position: absolute;
+  left: calc(50% - 50px);
+  margin: 0;
+  padding: 0;
+  bottom: 0px;
+}
+.heading::before {
+  content: "";
+  background: #ccc;
+  height: 1px;
+  width: 200px;
+  position: absolute;
+  left: calc(50% - 100px);
+  margin: 0;
+  padding: 0;
+  bottom: 1px;
 }
