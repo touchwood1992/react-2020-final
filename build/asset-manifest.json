@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18076764.chunk.css",
+    "main.js": "/static/js/main.9f5dc09c.chunk.js",
+    "main.js.map": "/static/js/main.9f5dc09c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.edfe0ada.js",
+    "runtime-main.js.map": "/static/js/runtime-main.edfe0ada.js.map",
+    "static/css/2.5a101f9c.chunk.css": "/static/css/2.5a101f9c.chunk.css",
+    "static/js/2.11781ee2.chunk.js": "/static/js/2.11781ee2.chunk.js",
+    "static/js/2.11781ee2.chunk.js.map": "/static/js/2.11781ee2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.78ee1377c65862f21d785f53f2eb7640.js": "/precache-manifest.78ee1377c65862f21d785f53f2eb7640.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5a101f9c.chunk.css.map": "/static/css/2.5a101f9c.chunk.css.map",
+    "static/css/main.18076764.chunk.css.map": "/static/css/main.18076764.chunk.css.map",
+    "static/js/2.11781ee2.chunk.js.LICENSE.txt": "/static/js/2.11781ee2.chunk.js.LICENSE.txt",
+    "static/media/lato-font.css": "/static/media/lato-thin.13fa4c60.woff",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/slide1.jpg": "/static/media/slide1.39663838.jpg",
+    "static/media/slide2.jpg": "/static/media/slide2.f3614825.jpg",
+    "static/media/slide3.jpg": "/static/media/slide3.5204dd0f.jpg",
+    "static/media/slide4.jpg": "/static/media/slide4.be61fddb.jpg",
+    "static/media/slide5.jpg": "/static/media/slide5.7b74e48b.jpg",
+    "static/media/slide6.jpg": "/static/media/slide6.1507f230.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edfe0ada.js",
+    "static/css/2.5a101f9c.chunk.css",
+    "static/js/2.11781ee2.chunk.js",
+    "static/css/main.18076764.chunk.css",
+    "static/js/main.9f5dc09c.chunk.js"
+  ]
+}
