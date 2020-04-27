@@ -1,5 +1,3 @@
-//token: 57ae042c6405a2d122d9d68794fd81dc17e879fb
-//token base64 value: M2I3NGI5Yjg3YThlN2NjZjZkNTVjMzlhYzMyZGU2NGQ0MGVmYTc0NA==
 import React, { useEffect, useContext } from "react";
 
 import { toast } from "react-toastify";
@@ -35,16 +33,17 @@ const Github = () => {
             //   Authorization: `Basic M2I3NGI5Yjg3YThlN2NjZjZkNTVjMzlhYzMyZGU2NGQ0MGVmYTc0NA==`,
             // },
             headers: {
-              Authorization: `token 57ae042c6405a2d122d9d68794fd81dc17e879fb`,
+              Authorization: `token 2c02897ba56f9a4f9d79482ab89d54ad37a6f17f`,
             },
           });
 
           const repos = await axios.get(
             `https://api.github.com/users/${val}/repos?per_page=7`,
             {
+              //
               headers: {
                 Authorization: `Basic ${btoa(
-                  "57ae042c6405a2d122d9d68794fd81dc17e879fb"
+                  "2c02897ba56f9a4f9d79482ab89d54ad37a6f17f"
                 )}`,
               },
               // headers: {
