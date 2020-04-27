@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -9,6 +9,7 @@ import SliderImages from "./SliderImages";
 
 const HomeSlider = () => {
   const settings = {
+    autoplay: true,
     dots: false,
     infinite: true,
     speed: 500,
@@ -17,6 +18,7 @@ const HomeSlider = () => {
     adaptiveHeight: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    autoplaySpeed: 3000,
   };
 
   function SampleNextArrow(props) {
@@ -48,20 +50,13 @@ const HomeSlider = () => {
   }, []);
 
   return (
-    <>
-      {console.log("Hi")}
-      <Container fluid className="p-0">
-        <Slider {...settings}>
-          {state.map((i) => (
-            <SliderItem
-              key={i.img}
-              img={i.img}
-              content={i.content}
-            ></SliderItem>
-          ))}
-        </Slider>
-      </Container>
-    </>
+    <Container fluid className="p-0">
+      <Slider {...settings}>
+        {state.map((i) => (
+          <SliderItem key={i.img} img={i.img} content={i.content}></SliderItem>
+        ))}
+      </Slider>
+    </Container>
   );
 };
 export default HomeSlider;

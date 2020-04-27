@@ -1,0 +1,9 @@
+export const SET_LOADING = "SET_LOADING";
+export const ALL_CONTACTS = "ALL_CONTACTS";
+export const REMOVE_CONTACT = "REMOVE_CONTACT";
+export const SET_UPDATE_USER = "SET_UPDATE_USER";
+export const SET_ERROR = "SET_ERROR";
+export const SET_MSGS = "SET_MSGS";
+export const UPDATE_USER = "UPDATE_USER";
+export const REMOVE_USER = "REMOVE_USER";
+export const RESET_MSGS = "RESET_MSGS";

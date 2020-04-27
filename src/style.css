@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 #main-site {
   min-height: 100vh;
@@ -15,6 +15,11 @@ body {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+/* =============================HEADER======================= */
+.nav-item > .nav-link {
+  font-size: 0.8rem;
 }
 
 /* =============================SLIDER======================= */
@@ -111,6 +116,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  font-size: 1.9rem;
 }
 .heading::after {
   content: "";
@@ -133,4 +139,9 @@ body {
   margin: 0;
   padding: 0;
   bottom: 1px;
+}
+
+/*=============================== OUR TEAM ======================================= */
+.website-loader {
+  min-height: 100vh;
 }

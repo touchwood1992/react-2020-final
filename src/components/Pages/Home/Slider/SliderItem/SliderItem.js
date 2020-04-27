@@ -4,7 +4,9 @@ const SliderItem = (props) => {
   return (
     <div>
       <div
-        style={{ backgroundImage: `url(${props.img})` }}
+        style={{
+          backgroundImage: `linear-gradient(to right , rgba(0,0,0,0.2),rgba(0,0,0,0.2)) , url(${props.img})`,
+        }}
         className="inner-slide-item"
       >
         <div className="slick-content">
