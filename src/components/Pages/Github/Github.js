@@ -1,4 +1,4 @@
-//token: 3b74b9b87a8e7ccf6d55c39ac32de64d40efa744
+//token: 57ae042c6405a2d122d9d68794fd81dc17e879fb
 //token base64 value: M2I3NGI5Yjg3YThlN2NjZjZkNTVjMzlhYzMyZGU2NGQ0MGVmYTc0NA==
 import React, { useEffect, useContext } from "react";
 
@@ -35,7 +35,7 @@ const Github = () => {
             //   Authorization: `Basic M2I3NGI5Yjg3YThlN2NjZjZkNTVjMzlhYzMyZGU2NGQ0MGVmYTc0NA==`,
             // },
             headers: {
-              Authorization: `token 3b74b9b87a8e7ccf6d55c39ac32de64d40efa744`,
+              Authorization: `token 57ae042c6405a2d122d9d68794fd81dc17e879fb`,
             },
           });
 
@@ -43,7 +43,9 @@ const Github = () => {
             `https://api.github.com/users/${val}/repos?per_page=7`,
             {
               headers: {
-                Authorization: `Basic M2I3NGI5Yjg3YThlN2NjZjZkNTVjMzlhYzMyZGU2NGQ0MGVmYTc0NA==`,
+                Authorization: `Basic ${btoa(
+                  "57ae042c6405a2d122d9d68794fd81dc17e879fb"
+                )}`,
               },
               // headers: {
               //   Authorization: `token 3b74b9b87a8e7ccf6d55c39ac32de64d40efa744`,
